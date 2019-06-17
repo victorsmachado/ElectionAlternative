@@ -1,0 +1,25 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+  version="2.1">
+  <!-- O nome da unidade de persistência é referenciado na criação da fábrica
+       de gerenciadores de entidade.-->  
+  <persistence-unit name="persistencia_simples">
+    <description> Exemplo simples de CRUD
+                  com JPA - Hibernate 5</description>
+    <!-- Provedor da implementação das especificações de interface do JPA -->
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider> 
+    <class>model.Usuario</class>
+	<class>model.Papel</class> 
+    <properties>
+      <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver" />
+      <property name="javax.persistence.jdbc.url" value="jdbc:mariadb://localhost:3310/back_end_dao" />
+      <property name="javax.persistence.jdbc.user" value="victor" />
+      <property name="javax.persistence.jdbc.password" value="123" />
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+      <property name="hibernate.show_sql" value="true" />
+      <property name="hibernate.hbm2ddl.auto" value="update" />
+    </properties>
+  </persistence-unit>
+</persistence>

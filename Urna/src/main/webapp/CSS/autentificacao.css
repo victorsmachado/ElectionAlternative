@@ -1,0 +1,155 @@
+html, body {
+	height: 100%;
+    max-width: 100%;
+	}
+
+#top-left {
+    font-size: 15px;
+    color: lightblue;
+}
+
+#top-center-right {
+    font-size: 16px;
+    
+	position: absolute;
+		right:0%;
+		top:0%;
+		margin-right:20%;
+		
+        color: white;
+}
+#top-right {
+    font-size: 15px;
+    position: absolute;
+        right: 0%;
+        top: 0%;
+    margin-right: 10px;
+    color: white
+}
+
+
+#box { 
+    border: solid 4px #000;
+    background-color: aliceblue;
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    align-content: center; 
+}
+
+
+.center {
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex; 
+    display: flex; 
+    -webkit-align-items: center; 
+    align-items: center;
+    -webkit-justify-content: center; 
+    justify-content: center;
+}
+
+#button1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#boxtitle {
+    left: 0px;
+    border: 4px solid;
+    width: 100%;
+    height: 200px;
+	background-color: #D2FEFF;
+}
+.login1 {
+    width: 30%;
+    margin: 0.5px;
+    margin-left: 47%;
+}
+
+#autentuser {
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+.login2 {
+    width: 20%;
+    margin-left:40%;
+}
+
+#titulo {
+    width: 100%;
+    height: 200px;
+}
+
+
+#about {
+    position: absolute;
+    left: 80%;
+    bottom: 25px;
+    font-size: 15px;
+}
+
+#contact {
+    position: absolute;
+    font-size: 15px;
+    bottom: 25px;
+    left:90%
+        
+}
+
+
+#imgrodape {
+    width: 100%;
+    height: 200px;
+    
+}
+
+.geral {
+    min-height:100%;
+    position:relative;
+}
+
+.header {
+    position:absolute;
+    top: 0;
+    width:100%;
+}
+
+
+#boxrodape {
+    position: relative;
+    border: 4px solid;
+    width: 100%;
+	background-color: #D2FEFF;
+    height: 200px;
+    bottom: 0;
+
+}
+
+#nav {
+    top:0px;
+    border: solid 4px;
+    background-color: black;
+    width: 100%;
+    
+}
+
+
+
+#boxcenter {
+    width: 100%;
+    height: 300px;
+
+    
+}
+
+
+
+.boxcentro{
+    height: 100px;
+    width: 100%;
+}
